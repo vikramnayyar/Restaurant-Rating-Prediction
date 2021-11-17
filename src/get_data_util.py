@@ -6,10 +6,12 @@ The script declare the functions used in get_data.py
 
 import pandas as pd
 from logzero import logger, logfile
+import pathlib
 
+from utility import download_file_from_google_drive
 
-def download_dataset():
-    file_id = config["get_data"]["download_id"]   # read dataset download id
+def download_dataset(file_id):
+    # file_id = config["get_data"]["download_id"]   # read dataset download id
     destination = pathlib.Path.cwd().parent.joinpath('data/restnt_data.csv')
     download_file_from_google_drive(file_id, destination)
     logger.info('Dataset was successfully downloaded')
