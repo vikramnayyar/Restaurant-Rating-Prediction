@@ -5,12 +5,14 @@ The script sequentially runs all the project scripts.
 
 """
 
-import os
-  
-os.system('python get_data.py')
-os.system('python data_analysis.py')
-os.system('python prepare_data.py')
-os.system('python split_data.py')
-os.system('python model_data.py')
-# os.system('python ../app/app.py')
-print("---------------Project Successfully Executed ---------------")
+import subprocess
+
+program_list = ['get_data.py', 'data_analysis.py', 'prepare_data.py', 'split_data.py', 'model_data.py']
+
+#for program in program_list:
+#    subprocess.call(['python3', program])
+#    print("Finished:" + program)
+
+app = '../app/app.py'
+subprocess.call(['streamlit', 'run',  app])
+print("Finished:" + app)
