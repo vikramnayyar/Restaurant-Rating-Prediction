@@ -1,0 +1,60 @@
+[I 211117 16:22:58 get_data:18] Downloading dataset
+[I 211117 16:22:58 get_data:20] Dataset downloaded successfully
+[E 211117 16:22:58 utility:89] Dataset was not loaded. Please ensure that dataset is provided and is named correctly.
+[I 211117 16:23:50 get_data:18] Downloading dataset
+[I 211117 16:27:32 get_data:21] Downloading dataset
+[I 211117 16:28:03 get_data:21] Downloading dataset
+[I 211117 16:30:03 get_data:21] Downloading dataset
+[I 211117 16:32:14 get_data:21] Downloading dataset
+[I 211117 16:33:53 get_data:21] Downloading dataset
+[I 211117 16:34:19 get_data_util:17] Dataset was successfully downloaded
+[I 211117 16:34:19 get_data:24] Dataset downloaded successfully
+[I 211117 16:34:23 utility:86] Dataset with 51717 and 17 features was loaded successfully.
+[I 211117 16:34:23 get_data_util:22] 
+     * Size of dataframe: (51717, 17)
+    
+[I 211117 16:34:23 get_data_util:23] * Datatype of columns are:
+[I 211117 16:34:23 get_data_util:24] None
+    
+    
+[I 211117 16:34:23 get_data_util:25] * Column-wise NaNs can be identified as: 
+[I 211117 16:34:23 get_data_util:26] url                                0
+    address                            0
+    name                               0
+    online_order                       0
+    book_table                         0
+    rate                            7775
+    votes                              0
+    phone                           1208
+    location                          21
+    rest_type                        227
+    dish_liked                     28078
+    cuisines                          45
+    approx_cost(for two people)      346
+    reviews_list                       0
+    menu_item                          0
+    listed_in(type)                    0
+    listed_in(city)                    0
+    dtype: int64
+    
+[I 211117 16:34:23 get_data_util:27] Total NaNs:37700
+[I 211117 16:34:23 get_data:63] NaN removal can be verified:
+    online_order    0
+    book_table      0
+    rate            0
+    votes           0
+    location        0
+    rest_type       0
+    cuisines        0
+    approx_cost     0
+    type            0
+    city            0
+    dtype: int64
+[I 211117 16:34:23 get_data:82] Cleaned dataset was saved successfully.
+[I 211117 16:34:23 get_data:95] The locations dictionary was saved successfully.
+[I 211117 16:34:23 get_data:109] The restaurant type dictionary was saved successfully.
+[I 211117 16:36:34 get_data:21] Downloading dataset
+[I 211117 17:46:40 get_data:21] Downloading dataset
+[I 211117 17:47:27 get_data:21] Downloading dataset
+[I 211117 17:48:18 get_data:21] Downloading dataset
+[I 211117 21:40:28 get_data:21] Downloading dataset

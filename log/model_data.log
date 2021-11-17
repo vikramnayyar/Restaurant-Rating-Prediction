@@ -1,0 +1,15 @@
+[I 211117 17:05:44 utility:86] Dataset with 33134 and 8 features was loaded successfully.
+[I 211117 17:05:44 utility:86] Dataset with 33134 and 1 features was loaded successfully.
+[I 211117 17:05:44 utility:86] Dataset with 8284 and 8 features was loaded successfully.
+[I 211117 17:05:44 utility:86] Dataset with 8284 and 1 features was loaded successfully.
+[I 211117 17:06:04 model_data:33]                                           model_name  Mean Squared Error  R2 Score
+    0  <class 'sklearn.ensemble._forest.ExtraTreesReg...            0.024301  0.848696
+    2  <class 'sklearn.ensemble._bagging.BaggingRegre...            0.024688  0.839660
+    4  <class 'sklearn.ensemble._forest.RandomForestR...            0.024711  0.839446
+    5             <class 'xgboost.sklearn.XGBRegressor'>            0.057657  0.520387
+    6          <class 'catboost.core.CatBoostRegressor'>            0.076160  0.297755
+    7           <class 'lightgbm.sklearn.LGBMRegressor'>            0.075961  0.262219
+    3  <class 'sklearn.ensemble._gb.GradientBoostingR...            0.094260 -0.020233
+    1  <class 'sklearn.ensemble._weight_boosting.AdaB...            0.144663 -0.960242
+[I 211117 17:06:11 model_data:50] Optimized Performance of Best Model
+     R2 Score: 0.9171546027744086, MSE: 0.014945598893483751
