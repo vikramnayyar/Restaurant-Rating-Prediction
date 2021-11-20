@@ -1,7 +1,7 @@
 """
 
-The script performs analysis on the cleaned dataset 
-& provides visualizations
+The script obtains various visualizations of the cleaned dataset 
+& stores them in "visualization" directory
 
 """
 import os
@@ -12,6 +12,7 @@ from utility import create_log, parse_config, read_data
 from data_analysis_util import box_plot, hist_plot, bar_plot, polar_plot, find_duplicates, remove_duplicates
 
 create_log("data_analysis.log")  # Creating log file
+
 ##################################################
 #-----------------Reading Dataset-----------------
 ##################################################
@@ -62,9 +63,7 @@ hist_plot(df_clean, "book_table", "book_vs_rating")
 cuisines = df_clean['cuisines'].str.split(',').explode().unique().tolist()  # reading cuisines
 
 
-#-------- Forming cuisine dataframe--------
-
-
+# Forming cuisine dataframe
 def form_cuisine_df(df_clean):
     data = []
     df_filtered = pd.DataFrame()
@@ -85,27 +84,14 @@ def form_cuisine_df(df_clean):
 
 df_cuisine = form_cuisine_df(df_clean)
 
-###############################################
-#---------------Finding Duplicates-------------
-###############################################
 
+# Cleaning cusines dataframe
+duplicate_cuisines = find_duplicates(df_cuisine, "cuisine") # Finding Duplicates
+df_cuisine = remove_duplicates(df_cuisine, duplicate_cuisines) # Removing Duplicates
+    
 
-duplicate_cuisines = find_duplicates(df_cuisine, "cuisine")
-
-
-###############################################
-#---------------Removing Duplicates------------
-###############################################
-
-df_cuisine = remove_duplicates(df_cuisine, duplicate_cuisines)
-        
-                               
-# Plotting top cuisines
-
-# Taking cuisines that are atleast served in over 900 restaurants 
-df_cuisine = df_cuisine[df_cuisine['Total Restaurants'] > 900]
-
-
+# Filtering & plotting top cuisines
+df_cuisine = df_cuisine[df_cuisine['Total Restaurants'] > 900] # Taking cuisines that are atleast served in over 900 restaurants 
 bar_plot(df_cuisine, "cuisine", "Total Restaurants", "top_cuisines")
 
 
