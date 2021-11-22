@@ -45,7 +45,7 @@ The main project scripts are in the "src" directory. Exceptionally, "app.py" is 
 **get_data_util.py**, **data_analysis_util.py**, **prepare_data_util.py**, **split_data_util.py**, **model_data_util.py** and **utility.py** delcare vital functions that are required by respective scripts.    
 
 ## Directory Structure
-
+```bash
 app                       # Application files
 
 ├── app.py                # This script is used to create application
@@ -91,7 +91,7 @@ data                      # Data files (**Note :** This directory is empty in Gi
 │       └── index.js
 └── index.js
 
-
+```
 
 ## Installing Dependencies
 Foremost running the project, installing the dependencies is essential. 
