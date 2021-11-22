@@ -45,7 +45,6 @@ The main project scripts are in the "src" directory. Exceptionally, "app.py" is 
 **get_data_util.py**, **data_analysis_util.py**, **prepare_data_util.py**, **split_data_util.py**, **model_data_util.py** and **utility.py** delcare vital functions that are required by respective scripts.    
 
 ## Directory Structure
-**Note :** Data and Model directories are empty due to Github upload size restriction. These directories fills up by running corresponding scripts. This is already explained in Technical Description section. The project directory structure is given as follows  
 
 ```bash
 ├── app                              # Application files
@@ -92,6 +91,7 @@ The main project scripts are in the "src" directory. Exceptionally, "app.py" is 
 |  ├── top_cuisines.png              # Top cuisines figure
 ├── requirements.txt                 # Required libraries
 ```
+**Note :** Data and Model directories are empty due to Github upload size restriction. These directories fill up by running corresponding scripts. This is already explained in Technical Description section. The project directory structure is given as follows  
 
 ## Installing Dependencies
 Foremost running the project, installing the dependencies is essential. 
@@ -108,7 +108,7 @@ Running the following command in the "src" directory executes the entire project
 ```bash
 python3 run_project.py
 ```
-Alternatively, "src" and “app” directory  contain the main project scripts. These can be individually executed using the general script given as
+Alternatively, "src" and “app” directory  contain the main project scripts. They can be individually executed using the general script given as
 ```bash
 python3 script.py
 ```
