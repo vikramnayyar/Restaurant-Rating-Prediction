@@ -1,7 +1,7 @@
 # Restaurant-Rating-Prediction
 
 ## Introduction
-An app is developed that predicts the rating of a Bangalore restaurant. This is based on ___ user inputs. The app was trained using <b>sklearn</b> models and 
+An app is developed that predicts the rating of a Bangalore restaurant. This is based on six user inputs. The app was trained using <b>sklearn</b> models and 
 is developed in <b>Streamlit</b>.
 
 
@@ -26,7 +26,7 @@ This work was performed as a insternship project in iNeuron. The purpose of the 
 A good customer evaluation; certainly lays a lasting platform for the restaurant’s profit.
 
 ## Technical Description
-The main project scripts are in the "src" directory. The main constituting scripts are as follows
+The main project scripts are in the "src" directory. Exceptionally, "app.py" is in app directory. The main constituting scripts are as follows
 
 * **get_data.py:** This script downloads the data. The data is not present in the repository due to upload size restrictions of Github. NaNs are removed. Cleaned dataset and locations and restaurant type dictionaries are saved. These dictionaries are later used by Streamlit app.
 
@@ -36,9 +36,9 @@ The main project scripts are in the "src" directory. The main constituting scrip
 
 * **split_data.py:** The cleaned dataset is split using stratified sampling. This ensures the fair splitting. Labels are separated from train and test sets.
 
-* **model_data.py:** The train set is modelled using ________ models. Accuracy of all the models is verified using test set. Henceforth, the best model is selected. The feature selection of the best model is optimized to increase the accuracy to _________
+* **model_data.py:** The train set is modelled using data science models. Accuracy of all the models is verified using test set. Henceforth, the best model is selected. The feature selection of the best model is optimized to increase the accuracy to _________
 
-* **app.py:** The script develops a Streamlit app; that accepts ______ user inputs to predict the restaurant rating. 
+* **app.py:** The script develops a Streamlit app; that accepts six user inputs to predict the restaurant rating. 
  
 * **run_project.py:** The script runs all the project scripts sequentially (including applcation). Therefore, entire project is executed with this script.  
 
@@ -46,7 +46,7 @@ The main project scripts are in the "src" directory. The main constituting scrip
 
 ## Installing Dependencies
 Foremost running the project, installing the dependencies is essential. 
-* Ensure that Python 3.8.8 or later is installed in the system. 
+* Ensure Python 3.8.8 or later is installed in the system. 
 * All required libraries are listed in "requirements.txt". These are easily installed; by running the following command in project directory
 ```bash
 pip install -r requirements.txt
@@ -59,3 +59,8 @@ Running the following command in the "src" directory executes the entire project
 ```bash
 python3 run_project.py
 ```
+Alternatively, "src" and “app” directory  contain the main project scripts. These can be individually executed using the general script given as
+```bash
+python3 script.py
+```
+Here “script.py” is any python script. 
