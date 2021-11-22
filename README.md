@@ -44,6 +44,52 @@ The main project scripts are in the "src" directory. Exceptionally, "app.py" is 
 
 **get_data_util.py**, **data_analysis_util.py**, **prepare_data_util.py**, **split_data_util.py**, **model_data_util.py** and **utility.py** delcare vital functions that are required by respective scripts.    
 
+## Directory Structure
+
+app                       # Application files
+├── app.py                # This script is used to create application
+config                    # Configuration Files
+├── config.yaml           # Configuration parameters  
+data                      # Data files (**Note :** This directory is empty in Github due to upload size restrictions. The directory fills up by running  corresponding scripts.)   
+├── restnt_data.csv       # This is original dataset. This is downloaded from Google Drive by running "get_data.py" 
+├── clean_data.csv        # "get_data.py" cleans restnt_data.csv to save clean_data.csv 
+├── prepared_data.csv     # "prepare_data.py" prepares 
+├── 
+
+
+
+
+
+
+
+
+
+
+
+│       ├── components
+│       ├── screens
+│       │   ├── Admin
+│       │   │   ├── components
+│       │   │   ├── screens
+│       │   │   │   ├── Reports
+│       │   │   │   │   ├── components
+│       │   │   │   │   └── index.js
+│       │   │   │   └── Users
+│       │   │   │       ├── components
+│       │   │   │       └── index.js
+│       │   │   └── index.js
+│       │   └── Course
+│       │       ├── components
+│       │       ├── screens
+│       │       │   └── Assignments
+│       │       │       ├── components
+│       │       │       └── index.js
+│       │       └── index.js
+│       └── index.js
+└── index.js
+
+
+
 ## Installing Dependencies
 Foremost running the project, installing the dependencies is essential. 
 * Ensure Python 3.8.8 or later is installed in the system. 
