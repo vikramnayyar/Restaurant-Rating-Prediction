@@ -47,8 +47,11 @@ The main project scripts are in the "src" directory. Exceptionally, "app.py" is 
 ## Directory Structure
 
 app                       # Application files
+
 ├── app.py                # This script is used to create application
+
 config                    # Configuration Files
+
 ├── config.yaml           # Configuration parameters  
 data                      # Data files (**Note :** This directory is empty in Github due to upload size restrictions. The directory fills up by running  corresponding scripts.)   
 ├── restnt_data.csv       # This is original dataset. This is downloaded from Google Drive by running "get_data.py" 
