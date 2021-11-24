@@ -113,3 +113,12 @@ Alternatively, "src" and “app” directory  contain the main project scripts. 
 python3 script.py
 ```
 Here “script.py” is any python script. 
+
+## System Environment
+
+Programming Language: Python 3.8.8 
+Numerical Calculations: Numpy, Scipy
+Plots: Matplotlib, Seaborn  
+Model Training: Scikit Learn, XGBoost, LightGBM, CatBoost
+Application Interface: Streamlit
+Deployment: Heroku
