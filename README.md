@@ -6,9 +6,7 @@ is developed in <b>Streamlit</b>.
 
 
 ## Dataset
-The dataset consists of actual information obtained from Zomato. This consists <b>51717</b> restaurants and <b>17</b> features. 
-
-The dataset was acquired from Kaggle and was uploaded by Himanshu Poddar. Besides, a recently updated dataset can be obtained using web scraping.   
+The dataset consists of actual information obtained from Zomato. This consists <b>51717</b> restaurants and <b>17</b> features. The dataset was uploaded by Himanshu Poddar in Kaggle. Besides, a recently updated dataset can be obtained using web scraping.   
 
 <b>Note:</b> The dataset is downloaded by running "get_data.py" script, therefore; the data is not provided is repository. Furthermore, the dataset can be easily downloaded from https://drive.google.com/file/d/1D-0gn9kJObWDnHXy9_NwI1Us8zCfFlwt/view?usp=sharing
 
@@ -124,3 +122,19 @@ Plots: Matplotlib, Seaborn
 Model Training: Scikit Learn, XGBoost, LightGBM, CatBoost
 Application Interface: Streamlit
 Deployment: Heroku
+
+
+![](https://forthebadge.com/images/badges/made-with-python.svg)
+
+
+[<img target="_blank" src="https://www.fullstackpython.com/img/logos/scipy.png" width=200>](https://www.scipy.org/)     [<img target="_blank" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/NumPy_logo_2020.svg/512px-NumPy_logo_2020.svg.png" width=200>](https://numpy.org/)     
+
+
+[<img target="_blank" src="https://matplotlib.org/_static/logo2_compressed.svg" width=200>](https://matplotlib.org)     [<img target="_blank" src="https://seaborn.pydata.org/_static/logo-wide-lightbg.svg" width=200>](https://seaborn.pydata.org/)   
+
+
+
+[<img target="_blank" src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" width=200>](https://scikit-learn.org)     [<img target="_blank" src="https://www.h2o.ai/wp-content/uploads/2018/07/xgboost-narrow.png" width=200>](https://github.com/dmlc/xgboost)     [<img target="_blank" src="https://lightgbm.readthedocs.io/en/latest/_images/LightGBM_logo_black_text.svg" width=200>](https://lightgbm.readthedocs.io/en/latest/)     [<img target="_blank" src="https://landscape.lfai.foundation/logos/cat-boost.svg" width=200>](https://catboost.ai/)    
+
+
+[<img target="_blank" src="https://streamlit.io/images/brand/streamlit-logo-primary-colormark-darktext.png" width=200>](https://streamlit.io/)     [<img target="_blank" src="https://streamlit.io/images/brand/streamlit-logo-primary-colormark-darktext.png" width=200>](https://streamlit.io/)
