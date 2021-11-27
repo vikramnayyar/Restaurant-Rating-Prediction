@@ -91,7 +91,7 @@ The main project scripts are in the "src" directory. Exceptionally, "app.py" is 
 ├── LICENSE                          
 ├── README.md                 
 ```
-**Note :** Data and Model directories are empty due to Github upload size restriction. These directories fill up by running corresponding scripts. This is already explained in Technical Description section. The project directory structure is given as follows  
+**Note :** Data and Model directories are empty due to Github upload size restriction. These directories fill up by running corresponding scripts. This is already explained in Technical Description section.  
 
 ## Installing Dependencies
 Foremost running the project, installing the dependencies is essential. 
