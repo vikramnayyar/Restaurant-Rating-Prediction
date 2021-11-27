@@ -10,7 +10,7 @@ The dataset consists of actual information obtained from Zomato. This consists <
 
 The dataset was acquired from Kaggle and was uploaded by Himanshu Poddar. Besides, a recently updated dataset can be obtained using web scraping.   
 
-<b>Note:</b> The dataset is downloaded by running "get_data.py" script, therefore; the data is not provided is repository. Furthermore, the dataset can be easily downloaded from ___________________________________
+<b>Note:</b> The dataset is downloaded by running "get_data.py" script, therefore; the data is not provided is repository. Furthermore, the dataset can be easily downloaded from https://drive.google.com/file/d/1D-0gn9kJObWDnHXy9_NwI1Us8zCfFlwt/view?usp=sharing
 
 
 ## Problem Statement
