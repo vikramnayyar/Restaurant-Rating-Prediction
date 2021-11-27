@@ -90,6 +90,8 @@ The main project scripts are in the "src" directory. Exceptionally, "app.py" is 
 |  ├── rest_type_vs_rating           # Rest-type vs rating figure 
 |  ├── top_cuisines.png              # Top cuisines figure
 ├── requirements.txt                 # Required libraries
+├── LICENSE                          
+├── README.md                 
 ```
 **Note :** Data and Model directories are empty due to Github upload size restriction. These directories fill up by running corresponding scripts. This is already explained in Technical Description section. The project directory structure is given as follows  
 
