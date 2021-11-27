@@ -132,7 +132,7 @@ Deployment: Heroku
 
 
 
-[<img target="_blank" src="https://www.metachris.com/images/posts/logzero/logo-text-wide-cropped.png" width=200>](https://pypi.org/project/logzero/)     [<img target="_blank" src="https://user-images.githubusercontent.com/965439/27257445-8791ea14-539c-11e7-8f5a-eec6cdfababa.png" width=200>](https://pypi.org/project/PyYAML/)     [<img target="_blank" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxpShxEtTgydbcNcDsrPHB2g8IoHhIY-zm1rqQCsB0HJ4MXjehCY-4-yCwnKKZmR37Ylw&usqp=CAU" width=200>](https://docs.python.org/3/library/subprocess.html)
+[<img target="_blank" src="https://www.metachris.com/images/posts/logzero/logo-text-wide-cropped.png" width=200>](https://pypi.org/project/logzero/)     [<img target="_blank" src="https://user-images.githubusercontent.com/965439/27257445-8791ea14-539c-11e7-8f5a-eec6cdfababa.png" width=200>](https://pypi.org/project/PyYAML/)     [<img target="_blank" src="https://phyblas.hinaboshi.com/rup/nayuki/2020/pythonsubprocess.png" width=200>](https://docs.python.org/3/library/subprocess.html)
 
 
 
