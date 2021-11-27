@@ -35,7 +35,7 @@ def box_plot(df_clean, col, plot_type):
     plt.ylabel(config["data_analysis"][plot_type]["ylabel"], size = 14) 
     plt.xticks( rotation = 90)
     
-    plt.savefig('cities_vs_rating.png')  # saving figure
+    plt.savefig(plot_type)  # saving figure
     # os.chdir('../src')
 
 
@@ -62,7 +62,7 @@ def hist_plot(df_clean, col, plot_type):
         Patch(facecolor="#2626ff", label="Not Available")
     ]
     ax[1].legend(handles=color_patches, fontsize=11);
-    plt.savefig('book_table_vs_rating.png')  # saving figure
+    plt.savefig(plot_type)  # saving figure
 
 
 
@@ -140,7 +140,7 @@ def bar_plot(df_3, col_1, col_2, plot_type):
                           color='rgb(12, 128, 128)'
                       ))
     
-    fig.write_image('top_cuisines.png')  # saving file
+    fig.write_image(plot_type)  # saving file
     
     
     
