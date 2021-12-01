@@ -75,6 +75,7 @@ The main project scripts are in the "src" directory. Exceptionally, "app.py" is 
 
 **get_data_util.py**, **data_analysis_util.py**, **prepare_data_util.py**, **split_data_util.py**, **model_data_util.py** and **utility.py** delcare vital functions that are required by respective scripts.    
 
+
 ## Directory Structure
 
 ```bash
@@ -121,8 +122,8 @@ The main project scripts are in the "src" directory. Exceptionally, "app.py" is 
 |  ├── rest_type_vs_rating           # Rest-type vs rating figure 
 |  ├── top_cuisines.png              # Top cuisines figure
 ├── requirements.txt                 # Required libraries
-├── LICENSE                          
-├── README.md                 
+├── LICENSE                          # License
+├── README.md                        # About repository
 ```
 **Note :** Data and Model directories are empty due to Github upload size restriction. These directories fill up by running corresponding scripts. This is already explained in Technical Description section.  
 
