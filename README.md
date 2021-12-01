@@ -19,7 +19,7 @@ Therefore, predicting the customer's liking is remarkably challenging. As; a lar
 
 
 ## Goal
-This work was performed as a insternship project in iNeuron. The purpose of the product is to predict restaurant ratings. For a restaurant,  maintaining a good  rating is of chief importance. A highly rated restaurant consistently attracts large customers. This is essential to popularize the restaurant in town.    
+This work was performed as an insternship project in iNeuron. The purpose of the product is to predict restaurant ratings. For a restaurant,  maintaining a good  rating is of chief importance. A highly rated restaurant consistently attracts large customers. This is essential to popularize the restaurant in town.    
 
 A good customer evaluation; certainly lays a lasting platform for the restaurant’s profit.
 
