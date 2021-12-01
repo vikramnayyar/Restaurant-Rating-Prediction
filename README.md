@@ -25,15 +25,6 @@ A good customer evaluation; certainly lays a lasting platform for the restaurant
 
 
 ## System Environment
-
-Programming Language: Python 3.8.8 
-Numerical Calculations: Numpy, Scipy
-Plots: Matplotlib, Seaborn  
-Model Training: Scikit Learn, XGBoost, LightGBM, CatBoost
-Application Interface: Streamlit
-Deployment: Heroku
-
-
 ![](https://forthebadge.com/images/badges/made-with-python.svg)
 
 
