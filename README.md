@@ -41,7 +41,7 @@ A good customer evaluation; certainly lays a lasting platform for the restaurant
 
 
 
-[<img target="_blank" src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" width=200>](https://scikit-learn.org)     [<img target="_blank" src="https://www.h2o.ai/wp-content/uploads/2018/07/xgboost-narrow.png" width=200>](https://github.com/dmlc/xgboost)     [<img target="_blank" src="https://lightgbm.readthedocs.io/en/latest/_images/LightGBM_logo_black_text.svg" width=200>](https://lightgbm.readthedocs.io/en/latest/)     [<img target="_blank" src="https://landscape.lfai.foundation/logos/cat-boost.svg" width=200>](https://catboost.ai/)    
+[<img target="_blank" src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" width=200>](https://scikit-learn.org)     [<img target="_blank" src="https://miro.medium.com/max/720/1*yhE3CBwTrlXcAIvNJNTQiA.png" width=200>](https://github.com/dmlc/xgboost)     [<img target="_blank" src="https://lightgbm.readthedocs.io/en/latest/_images/LightGBM_logo_black_text.svg" width=200>](https://lightgbm.readthedocs.io/en/latest/)     [<img target="_blank" src="https://landscape.lfai.foundation/logos/cat-boost.svg" width=200>](https://catboost.ai/)    
 
 
 [<img target="_blank" src="https://streamlit.io/images/brand/streamlit-logo-primary-colormark-darktext.png" width=200>](https://streamlit.io/)     [<img target="_blank" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Heroku_logo.svg/2560px-Heroku_logo.svg.png" width=200>](https://www.heroku.com/)
@@ -118,15 +118,17 @@ The main project scripts are in the "src" directory. Exceptionally, "app.py" is 
 ```
 **Note :** Data and Model directories are empty due to Github upload size restriction. These directories fill up by running corresponding scripts. This is already explained in Technical Description section.  
 
-## Installing Dependencies
+## Prerequisites
+### * Download Dataset
+User is required to download the data from gdrive link https://drive.google.com/file/d/1D-0gn9kJObWDnHXy9_NwI1Us8zCfFlwt/view?usp=sharing, and store in data directory of project. (Due to large size of dataset gdrive as well as Kaggle do not allow data to be downloaded using python scripts. Besides, GitHub has storage restrictions.)  
+
+### * Installing Dependencies
 Foremost running the project, installing the dependencies is essential. 
 * Ensure Python 3.8.8 or later is installed in the system. 
 * All required libraries are listed in "requirements.txt". These are easily installed; by running the following command in project directory
 ```bash
 pip install -r requirements.txt
 ```
-## Download Dataset
-User is required to download the data from gdrive link https://drive.google.com/file/d/1D-0gn9kJObWDnHXy9_NwI1Us8zCfFlwt/view?usp=sharing, and store in data directory of project. (Due to large size of dataset gdrive as well as Kaggle do not allow data to be downloaded using python scripts. Besides, GitHub has storage restrictions.)  
 
 ## Run Project
 As discussed in **Technical Aspect** section, "src" and “app” directory possess the main scripts. 
