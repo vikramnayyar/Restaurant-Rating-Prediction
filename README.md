@@ -125,6 +125,8 @@ Foremost running the project, installing the dependencies is essential.
 ```bash
 pip install -r requirements.txt
 ```
+## Download Dataset
+User is required to download the data from gdrive link https://drive.google.com/file/d/1D-0gn9kJObWDnHXy9_NwI1Us8zCfFlwt/view?usp=sharing, and store in data directory of project. (Due to large size of dataset gdrive as well as Kaggle do not allow data to be downloaded using python scripts. Besides, GitHub has storage restrictions.)  
 
 ## Run Project
 As discussed in **Technical Aspect** section, "src" and “app” directory possess the main scripts. 
