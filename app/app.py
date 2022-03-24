@@ -7,23 +7,18 @@ import pandas as pd
 import streamlit as st
 import pickle as pkl
 import os
+import yaml
 
-
-os.chdir("../src")
-
-
-from utility import parse_config, read_data
-#from get_data_util import download_dataset, download_model
-
-os.chdir("../app")
-
-#import numpy as np
-#import pathlib
-#import requests
-#
 
 #%% setting config
-config_path = "../config/config.yaml"   
+config_path = "config/config.yaml"   
+
+def parse_config(config_path):
+    with open(config_path, "rb") as f:
+        config = yaml.safe_load(f)
+    return config
+
+
 config = parse_config(config_path)   # read config file
 
 ##%% downloading dataset & model
@@ -124,7 +119,7 @@ selected_location = st.selectbox("", locations)
 # Encode the location entered by user
 def encode_location(selected_item):
     
-    file = open('../dict/locations_dict.pkl', 'rb')
+    file = open('dict/locations_dict.pkl', 'rb')
     dict_loc = pkl.load(file) 
     
     return dict_loc.get(selected_item, 'No info available')
@@ -149,7 +144,7 @@ st.write("Selected Type:", selected_type)
 # Encode the location entered by user
 def encode_type(selected_item):
     
-    file = open('../dict/rest_type_dict.pkl', 'rb')
+    file = open('dict/rest_type_dict.pkl', 'rb')
     dict_type = pkl.load(file) 
     
     return dict_type.get(selected_item, 'No info available')
@@ -159,7 +154,7 @@ selected_type = encode_type(selected_type)
 
 
 
-pickle_in = open("../model/model.pkl","rb")
+pickle_in = open("model/model.pkl","rb")
 regressor = pkl.load(pickle_in)
 
 

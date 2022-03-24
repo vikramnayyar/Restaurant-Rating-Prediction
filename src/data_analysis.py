@@ -17,14 +17,14 @@ create_log("data_analysis.log")  # Creating log file
 #-----------------Reading Dataset-----------------
 ##################################################
 
-config_path = "../config/config.yaml"   
+config_path = "config/config.yaml"   
 config = parse_config(config_path)   # read config file
 data_path = config["data_analysis"]["data"]   # read dataset
 df_clean = read_data(data_path)
 
 df_clean['rate'] = pd.to_numeric(df_clean['rate'], downcast = 'float') # Converting ratings to float
 
-os.chdir('../visualizations')  # directory to save visualization figures
+os.chdir('visualizations')  # directory to save visualization figures
 
 ##################################################
 #------------- 1. Cities vs Rating ---------------
@@ -105,4 +105,4 @@ df_cuisine_filtered = df_cuisine[df_cuisine['rate'] > 3.9]  # Filtering cuisines
 polar_plot(df_cuisine_filtered, "cuisine", "rate", "cuisines_vs_rating")
 
 
-os.chdir('../src')  # resetting to src path 
+os.chdir('..')  # resetting to src path 

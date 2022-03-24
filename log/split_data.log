@@ -20,3 +20,59 @@
     Rows in test data: 8284
     Rows in test labels: 8284
     
+[E 220324 21:32:09 utility:89] Dataset was not loaded. Please ensure that dataset is provided and is named correctly.
+[E 220324 21:38:31 utility:89] Dataset was not loaded. Please ensure that dataset is provided and is named correctly.
+[I 220324 21:40:13 utility:86] Dataset with 41418 and 9 features was loaded successfully.
+[I 220324 21:40:13 split_data_util:41] The correlation of 'rating' with other columns is: rest_type      -0.227450
+    city            0.018757
+    type            0.033588
+    online_order    0.069354
+    location        0.088498
+    approx_cost     0.392976
+    book_table      0.426095
+    votes           0.510432
+    rate            1.000000
+    Name: rate, dtype: float64
+[I 220324 21:40:13 split_data_util:55] 
+    Rows in train set : 33134
+    Rows in test set: 8284
+    
+    
+[I 220324 21:40:13 split_data_util:78] 
+    Rows in train data : 33134
+    Rows in train labels: 33134
+    Rows in test data: 8284
+    Rows in test labels: 8284
+    
+[I 220324 22:24:59 utility:86] Dataset with 41418 and 9 features was loaded successfully.
+[I 220324 22:25:00 split_data_util:41] The correlation of 'rating' with other columns is: rest_type      -0.227450
+    city            0.018757
+    type            0.033588
+    online_order    0.069354
+    location        0.088498
+    approx_cost     0.392976
+    book_table      0.426095
+    votes           0.510432
+    rate            1.000000
+    Name: rate, dtype: float64
+[I 220324 22:25:00 split_data_util:55] 
+    Rows in train set : 33134
+    Rows in test set: 8284
+    
+    
+[I 220324 22:28:08 utility:86] Dataset with 41418 and 9 features was loaded successfully.
+[I 220324 22:28:09 split_data_util:41] The correlation of 'rating' with other columns is: rest_type      -0.227450
+    city            0.018757
+    type            0.033588
+    online_order    0.069354
+    location        0.088498
+    approx_cost     0.392976
+    book_table      0.426095
+    votes           0.510432
+    rate            1.000000
+    Name: rate, dtype: float64
+[I 220324 22:28:09 split_data_util:55] 
+    Rows in train set : 33134
+    Rows in test set: 8284
+    
+    

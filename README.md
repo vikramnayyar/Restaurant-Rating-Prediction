@@ -122,6 +122,8 @@ The main project scripts are in the "src" directory. Exceptionally, "app.py" is 
 ### * Download Dataset
 User is required to download the data from gdrive link https://drive.google.com/file/d/1D-0gn9kJObWDnHXy9_NwI1Us8zCfFlwt/view?usp=sharing, and store in data directory of project. (Due to large size of dataset gdrive as well as Kaggle do not allow data to be downloaded using python scripts. Besides, GitHub has storage restrictions.)  
 
+User is alo recommended to avoid renaming the downloaded dataset. Dataset is required to be copied to **data** directory.
+
 ### * Installing Dependencies
 Foremost running the project, installing the dependencies is essential. 
 * Ensure Python 3.8.8 or later is installed in the system. 
@@ -133,12 +135,19 @@ pip install -r requirements.txt
 ## Run Project
 As discussed in **Technical Aspect** section, "src" and “app” directory possess the main scripts. 
 
-Running the following command in the "src" directory executes the entire project  
+Running the following command in **main project directory** executes the entire project  
 ```bash
-python3 run_project.py
+python3 src/run_project.py
 ```
 Alternatively, any main project scripts can be individually executed using the general script given as
 ```bash
-python3 script.py
+python3 src/script.py
 ```
-Here “script.py” is any python script. 
+Here “script.py” represents any python script. 
+
+Application executes by running following command in **main project directory**
+```bash
+streamlit run app/app.py
+```
+
+NOTE: All scripts (including application) run from main project directory.  

@@ -34,7 +34,7 @@ def analyze_corr(df, col):
     # title
     axes.text(-1, -1.5, 'Correlation', color='black', fontsize=24, fontweight='bold')
     
-    plt.savefig('../visualizations/correlation_heatmap.png')
+    plt.savefig('visualizations/correlation_heatmap.png')
     
     # Printing correlations
     corr_matrix = df.corr()

@@ -19,7 +19,7 @@ from utility import parse_config
 
 
 
-config_path = "../config/config.yaml"   
+config_path = "config/config.yaml"   
 config = parse_config(config_path)   # read config file
 
 
@@ -36,7 +36,7 @@ def box_plot(df_clean, col, plot_type):
     plt.xticks( rotation = 90)
     
     plt.savefig(plot_type)  # saving figure
-    # os.chdir('../src')
+    # os.chdir('src')
 
 
 

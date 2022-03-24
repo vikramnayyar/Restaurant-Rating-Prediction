@@ -15,12 +15,12 @@ from get_data_util import analyze_data, download_dataset, extract_dict
 
 create_log("get_data.log")  # Creating log file
 
-config_path = "../config/config.yaml"   
+config_path = "config/config.yaml"   
 config = parse_config(config_path)   # read config file
 
 logger.info("Downloading dataset")
 file_id = config["get_data"]["download_id"]
-download_dataset(file_id)    # downloads data from gdrive (File size is larger than git limit)
+# download_dataset(file_id)    # downloads data from gdrive (File size is larger than git limit)
 logger.info("Dataset downloaded successfully")
 
 
@@ -77,7 +77,7 @@ df_clean = df_clean.reset_index(drop=True)  # resetting indices
 
 
 # Saving cleaned data
-df_clean.to_csv('../data/clean_data.csv', index = False)    # Saving the file in the path
+df_clean.to_csv('data/clean_data.csv', index = False)    # Saving the file in the path
 
 logger.info("Cleaned dataset was saved successfully.")
 
@@ -88,7 +88,7 @@ logger.info("Cleaned dataset was saved successfully.")
 
 location_dict = extract_dict(df_clean, 'location')
 
-file = open('../dict/locations_dict.pkl', 'wb')   # Open a file to store model
+file = open('dict/locations_dict.pkl', 'wb')   # Open a file to store model
 pickle.dump(location_dict, file)   # dumping information to the file
 file.close()
 
@@ -102,7 +102,7 @@ logger.info("The locations dictionary was saved successfully.")
 
 rest_type_dict = extract_dict(df_clean, 'rest_type')
 
-file = open('../dict/rest_type_dict.pkl', 'wb')   # Open a file to store model
+file = open('dict/rest_type_dict.pkl', 'wb')   # Open a file to store model
 pickle.dump(rest_type_dict, file)   # dumping information to the file
 file.close()
 

@@ -31,7 +31,7 @@ from utility import parse_config
 #-----------------Reading Config------------------
 ##################################################
 
-config_path = "../config/config.yaml"   
+config_path = "config/config.yaml"   
 config = parse_config(config_path)   # read config file
 
 ##################################################
@@ -95,4 +95,4 @@ def plot_feature_importance(train_data, feature_importance):
     plt.ylabel(config["model_data"]["feature_importance"]["ylabel"])
     plt.title(config["model_data"]["feature_importance"]["title"])
     plt.xticks(rotation = 'vertical')
-    plt.savefig('../visualizations/feature_importance.png')
+    plt.savefig('visualizations/feature_importance.png')
