@@ -246,3 +246,18 @@
 [I 220324 22:27:58 get_data:82] Cleaned dataset was saved successfully.
 [I 220324 22:27:58 get_data:95] The locations dictionary was saved successfully.
 [I 220324 22:27:58 get_data:109] The restaurant type dictionary was saved successfully.
+[I 220326 13:13:24 get_data:21] Downloading dataset
+[I 220326 13:13:24 get_data:24] Dataset downloaded successfully
+[I 220326 13:13:24 utility:86] Dataset with 1 and 1 features was loaded successfully.
+[I 220326 13:13:24 get_data_util:35] 
+     * Size of dataframe: (1, 1)
+    
+[I 220326 13:13:24 get_data_util:36] * Datatype of columns are:
+[I 220326 13:13:24 get_data_util:37] None
+    
+    
+[I 220326 13:13:24 get_data_util:38] * Column-wise NaNs can be identified as: 
+[I 220326 13:13:24 get_data_util:39] <!DOCTYPE html><html><head><title>Google Drive - Virus scan warning</title><meta http-equiv="content-type" content="text/html; charset=utf-8"/><style nonce="itzXak/wp622QFKNafInOA">/* Copyright 2022 Google Inc. All Rights Reserved. */    0
+    dtype: int64
+    
+[I 220326 13:13:24 get_data_util:40] Total NaNs:0
