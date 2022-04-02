@@ -19,7 +19,7 @@ Therefore, predicting the customer's liking is remarkably challenging. As; a lar
 
 
 ## Goal
-This work was performed as an insternship project in iNeuron. The purpose of the product is to predict restaurant ratings. For a restaurant,  maintaining a good  rating is of chief importance. A highly rated restaurant consistently attracts large customers. This is essential to popularize the restaurant in town.    
+The purpose of the project is to predict restaurant ratings. For a restaurant,  maintaining a good  rating is of chief importance. A highly rated restaurant consistently attracts large customers. This is essential to popularize the restaurant in town.    
 
 A good customer evaluation; certainly lays a lasting platform for the restaurant’s profit.
 
@@ -44,7 +44,7 @@ A good customer evaluation; certainly lays a lasting platform for the restaurant
 [<img target="_blank" src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" width=200>](https://scikit-learn.org)     [<img target="_blank" src="https://miro.medium.com/max/720/1*yhE3CBwTrlXcAIvNJNTQiA.png" width=200>](https://github.com/dmlc/xgboost)     [<img target="_blank" src="https://lightgbm.readthedocs.io/en/latest/_images/LightGBM_logo_black_text.svg" width=200>](https://lightgbm.readthedocs.io/en/latest/)     [<img target="_blank" src="https://landscape.lfai.foundation/logos/cat-boost.svg" width=200>](https://catboost.ai/)    
 
 
-[<img target="_blank" src="https://streamlit.io/images/brand/streamlit-logo-primary-colormark-darktext.png" width=200>](https://streamlit.io/)     [<img target="_blank" src="https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png" width=150>](https://www.docker.com/)     [<img target="_blank" src="https://repository-images.githubusercontent.com/83878269/a5c64400-8fdd-11ea-9851-ec57bc168db5" width=200>](https://dvc.org/)     
+[<img target="_blank" src="https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png" width=150>](https://www.docker.com/)     [<img target="_blank" src="https://streamlit.io/images/brand/streamlit-logo-primary-colormark-darktext.png" width=200>](https://streamlit.io/)     [<img target="_blank" src="https://repository-images.githubusercontent.com/83878269/a5c64400-8fdd-11ea-9851-ec57bc168db5" width=200>](https://dvc.org/)     
 
 
 
@@ -129,11 +129,11 @@ Foremost running the project, installing the dependencies is essential.
 pip install -r requirements.txt
 ```
 ### * Download Dataset
-Running the following command will begin the download process
+Running the following command main project directory; downloads the dataset  
 ```bash
 dvc pull
 ```
-The terminal/command prompt will ask for the authentication. After gdrive authentication, the download will start and store the data in **data** directory.   
+The terminal/command prompt asks for the authentication. After gdrive authentication, the dataset downloads in **data** directory.   
 
 **Optional Step:** 
 Alternatively, user can download the data from gdrive link https://drive.google.com/file/d/1D-0gn9kJObWDnHXy9_NwI1Us8zCfFlwt/view?usp=sharing, and store in data directory of project. (Due to large size of dataset gdrive as well as Kaggle do not allow data to be downloaded using python scripts. Besides, GitHub has storage restrictions).  User is also recommended to avoid renaming the downloaded dataset. Dataset is required to be copied to **data** directory.
