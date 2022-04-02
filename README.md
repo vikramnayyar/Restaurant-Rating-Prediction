@@ -75,7 +75,7 @@ The main project scripts are in the "src" directory. Exceptionally, "app.py" is 
 ├── config                           # Configuration files
 |  ├── config.yaml                   # Configuration file  
 ├── data                             # Data files ()   
-|  ├── restnt_data.csv               # Original dataset 
+|  ├── restnt_data.csv.dvc           # Tracking File of Original dataset (DVC)  
 |  ├── clean_data.csv                # Cleaned dataset 
 |  ├── prepared_data.csv             # Prepared dataset 
 |  ├── train_set.csv                 # Train data
@@ -96,7 +96,7 @@ The main project scripts are in the "src" directory. Exceptionally, "app.py" is 
 |  ├── split_data.log                # "split_data.py" script logs 
 |  ├── model_data.log                # "model_data.py" script logs 
 ├── model                            # Model Files
-|  ├── model.pkl                     # Saved model
+|  ├── model.pkl                     # Saved model (This file is not present in Github, it is created by running project) 
 ├── src                              # Main project scripts 
 |  ├── get_data.log                  # Dataset acquistion and cleaning script
 |  ├── data_analysis.log             # Dataset analysis and visualization script
@@ -120,9 +120,16 @@ The main project scripts are in the "src" directory. Exceptionally, "app.py" is 
 
 ## Prerequisites
 ### * Download Dataset
-User is required to download the data from gdrive link https://drive.google.com/file/d/1D-0gn9kJObWDnHXy9_NwI1Us8zCfFlwt/view?usp=sharing, and store in data directory of project. (Due to large size of dataset gdrive as well as Kaggle do not allow data to be downloaded using python scripts. Besides, GitHub has storage restrictions.)  
+Running the following command will begin the download process
+```bash
+dvc pull
+```
+The terminal/command prompt will ask for the authentication. After gdrive authentication, the download will start and store the data in **data** directory.   
 
-User is alo recommended to avoid renaming the downloaded dataset. Dataset is required to be copied to **data** directory.
+**Optional Step:** 
+Alternatively, user can download the data from gdrive link https://drive.google.com/file/d/1D-0gn9kJObWDnHXy9_NwI1Us8zCfFlwt/view?usp=sharing, and store in data directory of project. (Due to large size of dataset gdrive as well as Kaggle do not allow data to be downloaded using python scripts. Besides, GitHub has storage restrictions.)  
+
+User is also recommended to avoid renaming the downloaded dataset. Dataset is required to be copied to **data** directory.
 
 ### * Installing Dependencies
 Foremost running the project, installing the dependencies is essential. 
@@ -150,4 +157,4 @@ Application executes by running following command in **main project directory**
 streamlit run app/app.py
 ```
 
-NOTE: All scripts (including application) run from main project directory.  
+**NOTE**: All scripts (including application) run from main project directory.  
