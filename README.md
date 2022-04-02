@@ -44,7 +44,7 @@ A good customer evaluation; certainly lays a lasting platform for the restaurant
 [<img target="_blank" src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" width=200>](https://scikit-learn.org)     [<img target="_blank" src="https://miro.medium.com/max/720/1*yhE3CBwTrlXcAIvNJNTQiA.png" width=200>](https://github.com/dmlc/xgboost)     [<img target="_blank" src="https://lightgbm.readthedocs.io/en/latest/_images/LightGBM_logo_black_text.svg" width=200>](https://lightgbm.readthedocs.io/en/latest/)     [<img target="_blank" src="https://landscape.lfai.foundation/logos/cat-boost.svg" width=200>](https://catboost.ai/)    
 
 
-[<img target="_blank" src="https://streamlit.io/images/brand/streamlit-logo-primary-colormark-darktext.png" width=200>](https://streamlit.io/)     [<img target="_blank" src="https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png" width=200>](https://www.docker.com/)     [<img target="_blank" src="https://repository-images.githubusercontent.com/83878269/a5c64400-8fdd-11ea-9851-ec57bc168db5" width=200>](https://dvc.org/)     
+[<img target="_blank" src="https://streamlit.io/images/brand/streamlit-logo-primary-colormark-darktext.png" width=200>](https://streamlit.io/)     [<img target="_blank" src="https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png" width=150>](https://www.docker.com/)     [<img target="_blank" src="https://repository-images.githubusercontent.com/83878269/a5c64400-8fdd-11ea-9851-ec57bc168db5" width=200>](https://dvc.org/)     
 
 
 
