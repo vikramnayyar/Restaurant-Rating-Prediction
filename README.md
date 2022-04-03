@@ -8,7 +8,7 @@ is developed in <b>Streamlit</b>.
 ## Dataset
 The dataset consists of actual information obtained from Zomato. This consists <b>51717</b> restaurants and <b>17</b> features. The dataset was uploaded by Himanshu Poddar in Kaggle. Besides, a recently updated dataset can be obtained using web scraping.   
 
-<b>Note:</b> The dataset is downloaded by running "get_data.py" script, therefore; the data is not provided is repository. Furthermore, the dataset can be easily downloaded from https://drive.google.com/file/d/1D-0gn9kJObWDnHXy9_NwI1Us8zCfFlwt/view?usp=sharing
+<b>Note:</b> The dataset is downloaded by running command "dvc pull", therefore; the data is not provided in repository. Furthermore, the dataset can be easily downloaded from https://drive.google.com/file/d/1D-0gn9kJObWDnHXy9_NwI1Us8zCfFlwt/view?usp=sharing
 
 
 ## Problem Statement
