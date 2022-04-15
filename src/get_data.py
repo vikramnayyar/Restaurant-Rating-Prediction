@@ -18,10 +18,10 @@ create_log("get_data.log")  # Creating log file
 config_path = "config/config.yaml"   
 config = parse_config(config_path)   # read config file
 
-logger.info("Downloading dataset")
-file_id = config["get_data"]["download_id"]
+# logger.info("Downloading dataset")
+# file_id = config["get_data"]["download_id"]
 # download_dataset(file_id)    # downloads data from gdrive (File size is larger than git limit)
-logger.info("Dataset downloaded successfully")
+# logger.info("Dataset downloaded successfully")
 
 
 ##################################################
