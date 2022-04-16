@@ -1,0 +1,64 @@
+stages: 
+  get_data:
+    cmd: python3 src/get_data.py
+    deps:
+    - src/get_data.py
+    - src/get_data_util.py
+    - src/utility.py
+    - data/restnt_data.csv
+    outs:
+    - data/clean_data.csv
+    - dict/locations_dict.pkl
+    - dict/rest_type_dict.pkl
+
+  data_analysis:
+    cmd: python3 src/data_analysis.py
+    deps:
+    - src/data_analysis.py
+    - src/data_analysis_util.py
+    - src/utility.py
+    - data/clean_data.csv
+    outs:
+    - visualizations/city_vs_rating.png
+    - visualizations/type_vs_rating.png
+    - visualizations/online_vs_rating.png
+    - visualizations/book_vs_rating.png
+    - visualizations/top_cuisines.png
+    - visualizations/cuisines_vs_rating.png
+
+  prepare_data:
+    cmd: python3 src/prepare_data.py
+    deps:
+    - src/prepare_data.py
+    - src/prepare_data_util.py
+    - src/utility.py
+    - data/clean_data.csv
+    outs:
+    - data/prepared_data.csv     
+
+  split_data:
+    cmd: python3 src/split_data.py
+    deps:
+    - src/split_data.py
+    - src/split_data_util.py
+    - src/utility.py
+    - data/prepared_data.csv
+    outs:
+    - data/train_data.csv
+    - data/train_labels.csv
+    - data/test_data.csv
+    - data/test_labels.csv
+  
+
+  model_data:
+    cmd: python3 src/model_data.py
+    deps:
+    - src/model_data.py
+    - src/model_data_util.py
+    - src/utility.py
+    - data/train_data.csv
+    - data/train_labels.csv
+    - data/test_data.csv
+    - data/test_labels.csv
+    outs:
+    - model/model.pkl

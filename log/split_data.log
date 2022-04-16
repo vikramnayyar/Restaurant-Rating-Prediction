@@ -92,3 +92,271 @@
     Rows in test set: 8284
     
     
+[I 220416 17:07:55 utility:86] Dataset with 41418 and 9 features was loaded successfully.
+[I 220416 17:07:55 split_data_util:41] The correlation of 'rating' with other columns is: rest_type      -0.227450
+    city            0.018757
+    type            0.033588
+    online_order    0.069354
+    location        0.088498
+    approx_cost     0.392976
+    book_table      0.426095
+    votes           0.510432
+    rate            1.000000
+    Name: rate, dtype: float64
+[I 220416 17:07:55 split_data_util:55] 
+    Rows in train set : 33134
+    Rows in test set: 8284
+    
+    
+[I 220416 17:09:27 utility:86] Dataset with 41418 and 9 features was loaded successfully.
+[I 220416 17:09:27 split_data_util:41] The correlation of 'rating' with other columns is: rest_type      -0.227450
+    city            0.018757
+    type            0.033588
+    online_order    0.069354
+    location        0.088498
+    approx_cost     0.392976
+    book_table      0.426095
+    votes           0.510432
+    rate            1.000000
+    Name: rate, dtype: float64
+[I 220416 17:09:27 split_data_util:55] 
+    Rows in train set : 33134
+    Rows in test set: 8284
+    
+    
+[I 220416 17:15:45 utility:86] Dataset with 41418 and 9 features was loaded successfully.
+[I 220416 17:15:46 split_data_util:41] The correlation of 'rating' with other columns is: rest_type      -0.227450
+    city            0.018757
+    type            0.033588
+    online_order    0.069354
+    location        0.088498
+    approx_cost     0.392976
+    book_table      0.426095
+    votes           0.510432
+    rate            1.000000
+    Name: rate, dtype: float64
+[I 220416 17:15:46 split_data_util:55] 
+    Rows in train set : 33134
+    Rows in test set: 8284
+    
+    
+[I 220416 17:15:46 split_data_util:79] 
+    Rows in train data : 33134
+    Rows in train labels: 33134
+    Rows in test data: 8284
+    Rows in test labels: 8284
+    
+[I 220416 17:22:26 utility:86] Dataset with 41418 and 9 features was loaded successfully.
+[I 220416 17:22:26 split_data_util:44] The correlation of 'rating' with other columns is: rest_type      -0.227450
+    city            0.018757
+    type            0.033588
+    online_order    0.069354
+    location        0.088498
+    approx_cost     0.392976
+    book_table      0.426095
+    votes           0.510432
+    rate            1.000000
+    Name: rate, dtype: float64
+[I 220416 17:22:26 split_data_util:58] 
+    Rows in train set : 33134
+    Rows in test set: 8284
+    
+    
+[I 220416 17:22:26 split_data_util:82] 
+    Rows in train data : 33134
+    Rows in train labels: 33134
+    Rows in test data: 8284
+    Rows in test labels: 8284
+    
+[I 220416 17:24:03 utility:86] Dataset with 41418 and 9 features was loaded successfully.
+[I 220416 17:24:03 split_data_util:44] The correlation of 'rating' with other columns is: rest_type      -0.227450
+    city            0.018757
+    type            0.033588
+    online_order    0.069354
+    location        0.088498
+    approx_cost     0.392976
+    book_table      0.426095
+    votes           0.510432
+    rate            1.000000
+    Name: rate, dtype: float64
+[I 220416 17:24:03 split_data_util:58] 
+    Rows in train set : 33134
+    Rows in test set: 8284
+    
+    
+[I 220416 17:25:04 utility:86] Dataset with 41418 and 9 features was loaded successfully.
+[I 220416 17:25:04 split_data_util:44] The correlation of 'rating' with other columns is: rest_type      -0.227450
+    city            0.018757
+    type            0.033588
+    online_order    0.069354
+    location        0.088498
+    approx_cost     0.392976
+    book_table      0.426095
+    votes           0.510432
+    rate            1.000000
+    Name: rate, dtype: float64
+[I 220416 17:25:04 split_data_util:58] 
+    Rows in train set : 33134
+    Rows in test set: 8284
+    
+    
+[I 220416 17:25:04 split_data_util:81] 
+    Rows in train data : 33134
+    Rows in train labels: 33134
+    Rows in test data: 8284
+    Rows in test labels: 8284
+    
+[I 220416 17:26:05 utility:86] Dataset with 41418 and 9 features was loaded successfully.
+[I 220416 17:26:06 split_data_util:44] The correlation of 'rating' with other columns is: rest_type      -0.227450
+    city            0.018757
+    type            0.033588
+    online_order    0.069354
+    location        0.088498
+    approx_cost     0.392976
+    book_table      0.426095
+    votes           0.510432
+    rate            1.000000
+    Name: rate, dtype: float64
+[I 220416 17:26:06 split_data_util:58] 
+    Rows in train set : 33134
+    Rows in test set: 8284
+    
+    
+[I 220416 17:26:06 split_data_util:81] 
+    Rows in train data : 33134
+    Rows in train labels: 33134
+    Rows in test data: 8284
+    Rows in test labels: 8284
+    
+[I 220416 17:26:28 utility:86] Dataset with 41418 and 9 features was loaded successfully.
+[I 220416 17:26:28 split_data_util:44] The correlation of 'rating' with other columns is: rest_type      -0.227450
+    city            0.018757
+    type            0.033588
+    online_order    0.069354
+    location        0.088498
+    approx_cost     0.392976
+    book_table      0.426095
+    votes           0.510432
+    rate            1.000000
+    Name: rate, dtype: float64
+[I 220416 17:26:28 split_data_util:58] 
+    Rows in train set : 33134
+    Rows in test set: 8284
+    
+    
+[I 220416 17:26:28 split_data_util:81] 
+    Rows in train data : 33134
+    Rows in train labels: 33134
+    Rows in test data: 8284
+    Rows in test labels: 8284
+    
+[I 220416 17:26:48 utility:86] Dataset with 41418 and 9 features was loaded successfully.
+[I 220416 17:26:48 split_data_util:44] The correlation of 'rating' with other columns is: rest_type      -0.227450
+    city            0.018757
+    type            0.033588
+    online_order    0.069354
+    location        0.088498
+    approx_cost     0.392976
+    book_table      0.426095
+    votes           0.510432
+    rate            1.000000
+    Name: rate, dtype: float64
+[I 220416 17:26:48 split_data_util:58] 
+    Rows in train set : 33134
+    Rows in test set: 8284
+    
+    
+[I 220416 17:26:48 split_data_util:81] 
+    Rows in train data : 33134
+    Rows in train labels: 33134
+    Rows in test data: 8284
+    Rows in test labels: 8284
+    
+[I 220416 17:27:39 utility:86] Dataset with 41418 and 9 features was loaded successfully.
+[I 220416 17:27:39 split_data_util:44] The correlation of 'rating' with other columns is: rest_type      -0.227450
+    city            0.018757
+    type            0.033588
+    online_order    0.069354
+    location        0.088498
+    approx_cost     0.392976
+    book_table      0.426095
+    votes           0.510432
+    rate            1.000000
+    Name: rate, dtype: float64
+[I 220416 17:27:39 split_data_util:58] 
+    Rows in train set : 33134
+    Rows in test set: 8284
+    
+    
+[I 220416 17:27:39 split_data_util:81] 
+    Rows in train data : 33134
+    Rows in train labels: 33134
+    Rows in test data: 8284
+    Rows in test labels: 8284
+    
+[I 220416 17:29:14 utility:86] Dataset with 41418 and 9 features was loaded successfully.
+[I 220416 17:29:14 split_data_util:44] The correlation of 'rating' with other columns is: rest_type      -0.227450
+    city            0.018757
+    type            0.033588
+    online_order    0.069354
+    location        0.088498
+    approx_cost     0.392976
+    book_table      0.426095
+    votes           0.510432
+    rate            1.000000
+    Name: rate, dtype: float64
+[I 220416 17:29:14 split_data_util:58] 
+    Rows in train set : 33134
+    Rows in test set: 8284
+    
+    
+[I 220416 17:29:14 split_data_util:81] 
+    Rows in train data : 33134
+    Rows in train labels: 33134
+    Rows in test data: 8284
+    Rows in test labels: 8284
+    
+[I 220416 17:41:34 utility:86] Dataset with 41418 and 9 features was loaded successfully.
+[I 220416 17:41:34 split_data_util:44] The correlation of 'rating' with other columns is: rest_type      -0.227450
+    city            0.018757
+    type            0.033588
+    online_order    0.069354
+    location        0.088498
+    approx_cost     0.392976
+    book_table      0.426095
+    votes           0.510432
+    rate            1.000000
+    Name: rate, dtype: float64
+[I 220416 17:41:34 split_data_util:58] 
+    Rows in train set : 33134
+    Rows in test set: 8284
+    
+    
+[I 220416 17:41:35 split_data_util:81] 
+    Rows in train data : 33134
+    Rows in train labels: 33134
+    Rows in test data: 8284
+    Rows in test labels: 8284
+    
+[I 220416 17:42:23 utility:86] Dataset with 41418 and 9 features was loaded successfully.
+[I 220416 17:42:24 split_data_util:44] The correlation of 'rating' with other columns is: rest_type      -0.227450
+    city            0.018757
+    type            0.033588
+    online_order    0.069354
+    location        0.088498
+    approx_cost     0.392976
+    book_table      0.426095
+    votes           0.510432
+    rate            1.000000
+    Name: rate, dtype: float64
+[I 220416 17:42:24 split_data_util:58] 
+    Rows in train set : 33134
+    Rows in test set: 8284
+    
+    
+[I 220416 17:42:24 split_data_util:81] 
+    Rows in train data : 33134
+    Rows in train labels: 33134
+    Rows in test data: 8284
+    Rows in test labels: 8284
+    

@@ -1,0 +1,136 @@
+schema: '2.0'
+stages:
+  get_data:
+    cmd: python3 src/get_data.py
+    deps:
+    - path: data/restnt_data.csv
+      md5: 1216517874b07f530ec571addef957e2
+      size: 574072999
+    - path: src/get_data.py
+      md5: d690c1b1e07ca06a565c1862d82040ce
+      size: 3535
+    - path: src/get_data_util.py
+      md5: 1bee94a01e77b191cf38d2e1ef63bd2f
+      size: 1530
+    - path: src/utility.py
+      md5: b85bf377124868f1feb29dac7b93dd47
+      size: 2989
+    outs:
+    - path: data/clean_data.csv
+      md5: e88469f587f3053c3e4d09eae603bd01
+      size: 3918899
+    - path: dict/locations_dict.pkl
+      md5: ef0381eb98b73dd9a637c09302053ff5
+      size: 1658
+    - path: dict/rest_type_dict.pkl
+      md5: 4a97ed3fda8727df4cd1ebef61805450
+      size: 1929
+  data_analysis:
+    cmd: python3 src/data_analysis.py
+    deps:
+    - path: data/clean_data.csv
+      md5: e88469f587f3053c3e4d09eae603bd01
+      size: 3918899
+    - path: src/data_analysis.py
+      md5: 0b3b8b8fdc5001d13acd919927871bc8
+      size: 3616
+    - path: src/data_analysis_util.py
+      md5: b0dce0d38387d43d7457ba0694d83c92
+      size: 5857
+    - path: src/utility.py
+      md5: b85bf377124868f1feb29dac7b93dd47
+      size: 2989
+    outs:
+    - path: visualizations/book_vs_rating.png
+      md5: 20fa2ea6f7adf2b5175be964eabdbe86
+      size: 35853
+    - path: visualizations/city_vs_rating.png
+      md5: b708ee463e556206463076e5c8aafc5c
+      size: 84724
+    - path: visualizations/cuisines_vs_rating.png
+      md5: 2e374b1488b3e48c7a7055fa23d608b6
+      size: 62841
+    - path: visualizations/online_vs_rating.png
+      md5: f443e8490846a812c21a3979741a6a47
+      size: 34170
+    - path: visualizations/top_cuisines.png
+      md5: d2e84eebccb8607c16450853924ac4bb
+      size: 39963
+    - path: visualizations/type_vs_rating.png
+      md5: 2605b4c469fbd0806f526e295f707e7d
+      size: 45413
+  prepare_data:
+    cmd: python3 src/prepare_data.py
+    deps:
+    - path: data/clean_data.csv
+      md5: e88469f587f3053c3e4d09eae603bd01
+      size: 3918899
+    - path: src/prepare_data.py
+      md5: b252ba5e6aebd781d3431c470e7d21e6
+      size: 1879
+    - path: src/prepare_data_util.py
+      md5: 5def83ac6d8c557ef60ff8aac282f09f
+      size: 2275
+    - path: src/utility.py
+      md5: b85bf377124868f1feb29dac7b93dd47
+      size: 2989
+    outs:
+    - path: data/prepared_data.csv
+      md5: 8002f789ee2663924d733e792a3ed75d
+      size: 1075953
+  split_data:
+    cmd: python3 src/split_data.py
+    deps:
+    - path: data/prepared_data.csv
+      md5: 8002f789ee2663924d733e792a3ed75d
+      size: 1075953
+    - path: src/split_data.py
+      md5: 33ea6c302668ea04eaf7004b2389c948
+      size: 1041
+    - path: src/split_data_util.py
+      md5: e0b78419afc545edb4db659b9795d9b6
+      size: 2665
+    - path: src/utility.py
+      md5: b85bf377124868f1feb29dac7b93dd47
+      size: 2989
+    outs:
+    - path: data/test_data.csv
+      md5: 394970e14c4b8914b18cac4b5d9ad35c
+      size: 182182
+    - path: data/test_labels.csv
+      md5: 1c7b9929540453aff7d19a17615764c8
+      size: 33141
+    - path: data/train_data.csv
+      md5: d2c2144d547c365318a00513256d2401
+      size: 728165
+    - path: data/train_labels.csv
+      md5: 7ec372dcd722ce40805364f9fec6ffd0
+      size: 132541
+  model_data:
+    cmd: python3 src/model_data.py
+    deps:
+    - path: data/test_data.csv
+      md5: 394970e14c4b8914b18cac4b5d9ad35c
+      size: 182182
+    - path: data/test_labels.csv
+      md5: 1c7b9929540453aff7d19a17615764c8
+      size: 33141
+    - path: data/train_data.csv
+      md5: d2c2144d547c365318a00513256d2401
+      size: 728165
+    - path: data/train_labels.csv
+      md5: 7ec372dcd722ce40805364f9fec6ffd0
+      size: 132541
+    - path: src/model_data.py
+      md5: 420368ab78739e98ec7748edbc740d38
+      size: 2141
+    - path: src/model_data_util.py
+      md5: 5e45a35818d35e85e73b0dc8018541d9
+      size: 3557
+    - path: src/utility.py
+      md5: b85bf377124868f1feb29dac7b93dd47
+      size: 2989
+    outs:
+    - path: model/model.pkl
+      md5: 59154c8346f0a6676928100e89673da9
+      size: 144510319

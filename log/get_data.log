@@ -261,3 +261,179 @@
     dtype: int64
     
 [I 220326 13:13:24 get_data_util:40] Total NaNs:0
+[I 220416 16:42:11 utility:86] Dataset with 51717 and 17 features was loaded successfully.
+[I 220416 16:42:11 get_data_util:35] 
+     * Size of dataframe: (51717, 17)
+    
+[I 220416 16:42:11 get_data_util:36] * Datatype of columns are:
+[I 220416 16:42:11 get_data_util:37] None
+    
+    
+[I 220416 16:42:11 get_data_util:38] * Column-wise NaNs can be identified as: 
+[I 220416 16:42:11 get_data_util:39] url                                0
+    address                            0
+    name                               0
+    online_order                       0
+    book_table                         0
+    rate                            7775
+    votes                              0
+    phone                           1208
+    location                          21
+    rest_type                        227
+    dish_liked                     28078
+    cuisines                          45
+    approx_cost(for two people)      346
+    reviews_list                       0
+    menu_item                          0
+    listed_in(type)                    0
+    listed_in(city)                    0
+    dtype: int64
+    
+[I 220416 16:42:11 get_data_util:40] Total NaNs:37700
+[I 220416 16:42:11 get_data:63] NaN removal can be verified:
+    online_order    0
+    book_table      0
+    rate            0
+    votes           0
+    location        0
+    rest_type       0
+    cuisines        0
+    approx_cost     0
+    type            0
+    city            0
+    dtype: int64
+[I 220416 16:42:11 get_data:82] Cleaned dataset was saved successfully.
+[I 220416 16:42:11 get_data:95] The locations dictionary was saved successfully.
+[I 220416 16:42:11 get_data:109] The restaurant type dictionary was saved successfully.
+[I 220416 16:43:06 utility:86] Dataset with 51717 and 17 features was loaded successfully.
+[I 220416 16:43:06 get_data_util:35] 
+     * Size of dataframe: (51717, 17)
+    
+[I 220416 16:43:06 get_data_util:36] * Datatype of columns are:
+[I 220416 16:43:06 get_data_util:37] None
+    
+    
+[I 220416 16:43:06 get_data_util:38] * Column-wise NaNs can be identified as: 
+[I 220416 16:43:06 get_data_util:39] url                                0
+    address                            0
+    name                               0
+    online_order                       0
+    book_table                         0
+    rate                            7775
+    votes                              0
+    phone                           1208
+    location                          21
+    rest_type                        227
+    dish_liked                     28078
+    cuisines                          45
+    approx_cost(for two people)      346
+    reviews_list                       0
+    menu_item                          0
+    listed_in(type)                    0
+    listed_in(city)                    0
+    dtype: int64
+    
+[I 220416 16:43:06 get_data_util:40] Total NaNs:37700
+[I 220416 16:43:06 get_data:63] NaN removal can be verified:
+    online_order    0
+    book_table      0
+    rate            0
+    votes           0
+    location        0
+    rest_type       0
+    cuisines        0
+    approx_cost     0
+    type            0
+    city            0
+    dtype: int64
+[I 220416 16:43:07 get_data:82] Cleaned dataset was saved successfully.
+[I 220416 16:43:07 get_data:95] The locations dictionary was saved successfully.
+[I 220416 16:43:07 get_data:109] The restaurant type dictionary was saved successfully.
+[I 220416 16:43:35 utility:86] Dataset with 51717 and 17 features was loaded successfully.
+[I 220416 16:43:35 get_data_util:35] 
+     * Size of dataframe: (51717, 17)
+    
+[I 220416 16:43:35 get_data_util:36] * Datatype of columns are:
+[I 220416 16:43:35 get_data_util:37] None
+    
+    
+[I 220416 16:43:35 get_data_util:38] * Column-wise NaNs can be identified as: 
+[I 220416 16:43:36 get_data_util:39] url                                0
+    address                            0
+    name                               0
+    online_order                       0
+    book_table                         0
+    rate                            7775
+    votes                              0
+    phone                           1208
+    location                          21
+    rest_type                        227
+    dish_liked                     28078
+    cuisines                          45
+    approx_cost(for two people)      346
+    reviews_list                       0
+    menu_item                          0
+    listed_in(type)                    0
+    listed_in(city)                    0
+    dtype: int64
+    
+[I 220416 16:43:36 get_data_util:40] Total NaNs:37700
+[I 220416 16:43:36 get_data:63] NaN removal can be verified:
+    online_order    0
+    book_table      0
+    rate            0
+    votes           0
+    location        0
+    rest_type       0
+    cuisines        0
+    approx_cost     0
+    type            0
+    city            0
+    dtype: int64
+[I 220416 16:43:36 get_data:82] Cleaned dataset was saved successfully.
+[I 220416 16:43:36 get_data:95] The locations dictionary was saved successfully.
+[I 220416 16:43:36 get_data:109] The restaurant type dictionary was saved successfully.
+[I 220416 16:44:04 utility:86] Dataset with 51717 and 17 features was loaded successfully.
+[I 220416 16:44:04 get_data_util:35] 
+     * Size of dataframe: (51717, 17)
+    
+[I 220416 16:44:04 get_data_util:36] * Datatype of columns are:
+[I 220416 16:44:04 get_data_util:37] None
+    
+    
+[I 220416 16:44:04 get_data_util:38] * Column-wise NaNs can be identified as: 
+[I 220416 16:44:04 get_data_util:39] url                                0
+    address                            0
+    name                               0
+    online_order                       0
+    book_table                         0
+    rate                            7775
+    votes                              0
+    phone                           1208
+    location                          21
+    rest_type                        227
+    dish_liked                     28078
+    cuisines                          45
+    approx_cost(for two people)      346
+    reviews_list                       0
+    menu_item                          0
+    listed_in(type)                    0
+    listed_in(city)                    0
+    dtype: int64
+    
+[I 220416 16:44:04 get_data_util:40] Total NaNs:37700
+[I 220416 16:44:04 get_data:63] NaN removal can be verified:
+    online_order    0
+    book_table      0
+    rate            0
+    votes           0
+    location        0
+    rest_type       0
+    cuisines        0
+    approx_cost     0
+    type            0
+    city            0
+    dtype: int64
+[I 220416 16:44:04 get_data:82] Cleaned dataset was saved successfully.
+[I 220416 16:44:04 get_data:95] The locations dictionary was saved successfully.
+[I 220416 16:44:04 get_data:109] The restaurant type dictionary was saved successfully.

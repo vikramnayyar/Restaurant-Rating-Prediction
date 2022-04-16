@@ -35,3 +35,17 @@
     
 [I 220326 13:13:34 prepare_data_util:67] From grubbs_test we observe that calculated value is lesser than critical value, Accept null hypothesis and conclude that there is no outlier
     
+[I 220416 16:59:49 utility:86] Dataset with 41418 and 10 features was loaded successfully.
+[I 220416 16:59:49 prepare_data_util:26] Categorical conversion of columns was completed successfully.
+[I 220416 16:59:49 prepare_data_util:51] Columns with outliers are: ['votes', 'approx_cost']
+[I 220416 16:59:49 prepare_data_util:67] From grubbs_test we observe that calculated value is lesser than critical value, Accept null hypothesis and conclude that there is no outlier
+    
+[I 220416 16:59:49 prepare_data_util:67] From grubbs_test we observe that calculated value is lesser than critical value, Accept null hypothesis and conclude that there is no outlier
+    
+[I 220416 17:00:33 utility:86] Dataset with 41418 and 10 features was loaded successfully.
+[I 220416 17:00:33 prepare_data_util:26] Categorical conversion of columns was completed successfully.
+[I 220416 17:00:33 prepare_data_util:51] Columns with outliers are: ['votes', 'approx_cost']
+[I 220416 17:00:33 prepare_data_util:67] From grubbs_test we observe that calculated value is lesser than critical value, Accept null hypothesis and conclude that there is no outlier
+    
+[I 220416 17:00:33 prepare_data_util:67] From grubbs_test we observe that calculated value is lesser than critical value, Accept null hypothesis and conclude that there is no outlier
+    

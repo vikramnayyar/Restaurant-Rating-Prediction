@@ -96,7 +96,7 @@ bar_plot(df_cuisine, "cuisine", "Total Restaurants", "top_cuisines")
 
 
 ###############################################
-#-------------- Cuisines vs Rating ------------
+#------------ 6. Cuisines vs Rating -----------
 ###############################################
 
 df_cuisine_filtered = df_cuisine[df_cuisine['rate'] > 3.9]  # Filtering cuisines

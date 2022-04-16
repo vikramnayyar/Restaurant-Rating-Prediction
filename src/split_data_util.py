@@ -13,9 +13,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-import sklearn
+# import sklearn
 from sklearn.model_selection import StratifiedShuffleSplit
+from utility import parse_config
 
+config_path = "config/config.yaml"   
+config = parse_config(config_path)   # read config file
 
 
 def analyze_corr(df, col):
@@ -63,16 +66,16 @@ def train_test_split(df, col_1, col_2):
     test_set = test_set.drop([col_1], axis = 1)   # removing labels from test set
     
     # Saving train and test sets 
-    tgt_path = pathlib.Path.cwd().parent.joinpath('data/train_labels.csv')  # declaring file path
+    tgt_path = config["split_data"]["train_data"]
+    train_set.to_csv(tgt_path, index = False)   # saving file
+
+    tgt_path = config["split_data"]["train_labels"]
     train_labels.to_csv(tgt_path, index = False)   # saving file
     
-    tgt_path = pathlib.Path.cwd().parent.joinpath('data/train_set.csv')  # declaring file path
-    train_set.to_csv(tgt_path, index = False)   # saving file
-    
-    tgt_path = pathlib.Path.cwd().parent.joinpath('data/test_labels.csv')  # declaring file path
-    test_labels.to_csv(tgt_path, index = False)   # saving file
-    
-    tgt_path = pathlib.Path.cwd().parent.joinpath('data/test_set.csv')  # declaring file path
+    tgt_path = config["split_data"]["test_data"]
     test_set.to_csv(tgt_path, index = False)   # saving file
-    
+
+    tgt_path = config["split_data"]["test_labels"]
+    test_labels.to_csv(tgt_path, index = False)   # saving file
+
     logger.info(f"\nRows in train data : {len(train_set)}\nRows in train labels: {len(train_labels)}\nRows in test data: {len(test_set)}\nRows in test labels: {len(test_labels)}\n")

@@ -94,3 +94,31 @@
     [8 rows x 3 columns]
 [I 220326 13:14:06 model_data:50] Optimized Performance of Best Model
      R2 Score: 0.9173878095831992, MSE: 0.014923634741814984
+[I 220416 17:35:22 utility:86] Dataset with 33134 and 1 features was loaded successfully.
+[I 220416 17:35:22 utility:86] Dataset with 33134 and 1 features was loaded successfully.
+[I 220416 17:35:22 utility:86] Dataset with 33134 and 1 features was loaded successfully.
+[I 220416 17:35:22 utility:86] Dataset with 33134 and 1 features was loaded successfully.
+[I 220416 17:35:27 model_data:33]                                           model_name  Mean Squared Error  R2 Score
+    0  <class 'sklearn.ensemble._forest.ExtraTreesReg...        1.500287e-26  1.000000
+    2  <class 'sklearn.ensemble._bagging.BaggingRegre...        2.139128e-27  1.000000
+    4  <class 'sklearn.ensemble._forest.RandomForestR...        2.164530e-27  1.000000
+    6          <class 'catboost.core.CatBoostRegressor'>        4.849803e-13  1.000000
+    5             <class 'xgboost.sklearn.XGBRegressor'>        2.442904e-10  1.000000
+    3  <class 'sklearn.ensemble._gb.GradientBoostingR...        1.061083e-09  1.000000
+    7           <class 'lightgbm.sklearn.LGBMRegressor'>        1.115777e-05  0.999943
+    1  <class 'sklearn.ensemble._weight_boosting.AdaB...        2.638174e-03  0.986262
+[I 220416 17:42:27 utility:86] Dataset with 33134 and 8 features was loaded successfully.
+[I 220416 17:42:27 utility:86] Dataset with 33134 and 1 features was loaded successfully.
+[I 220416 17:42:27 utility:86] Dataset with 8284 and 8 features was loaded successfully.
+[I 220416 17:42:27 utility:86] Dataset with 8284 and 1 features was loaded successfully.
+[I 220416 17:42:47 model_data:33]                                           model_name  Mean Squared Error  R2 Score
+    0  <class 'sklearn.ensemble._forest.ExtraTreesReg...            0.023819  0.852524
+    2  <class 'sklearn.ensemble._bagging.BaggingRegre...            0.024797  0.838869
+    4  <class 'sklearn.ensemble._forest.RandomForestR...            0.024837  0.838718
+    5             <class 'xgboost.sklearn.XGBRegressor'>            0.057657  0.520387
+    6          <class 'catboost.core.CatBoostRegressor'>            0.076160  0.297755
+    7           <class 'lightgbm.sklearn.LGBMRegressor'>            0.075961  0.262219
+    3  <class 'sklearn.ensemble._gb.GradientBoostingR...            0.094262 -0.020269
+    1  <class 'sklearn.ensemble._weight_boosting.AdaB...            0.142323 -0.957080
+[I 220416 17:42:54 model_data:50] Optimized Performance of Best Model
+     R2 Score: 0.9178574393411301, MSE: 0.014833462355793569
