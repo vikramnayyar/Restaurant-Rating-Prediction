@@ -115,6 +115,9 @@ The main project scripts are in the "src" directory. Exceptionally, "app.py" is 
 |  ├── rest_type_vs_rating           # Rest-type vs rating figure 
 |  ├── top_cuisines.png              # Top cuisines figure
 ├── requirements.txt                 # Required libraries
+├── dvc.yaml                         # DVC pipelines
+├── Dockerfile                       # Docker file for generating containers
+├── requirements.txt                 # Required libraries
 ├── LICENSE                          # License
 ├── README.md                        # About repository
 ```
