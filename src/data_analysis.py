@@ -105,4 +105,6 @@ df_cuisine_filtered = df_cuisine[df_cuisine['rate'] > 3.9]  # Filtering cuisines
 polar_plot(df_cuisine_filtered, "cuisine", "rate", "cuisines_vs_rating")
 
 
-os.chdir('..')  # resetting to src path 
+os.chdir('..')  # resetting to main project dir 
+# cwd = os.getcwd()    # for validating os.chdir('..')
+# print(cwd)
