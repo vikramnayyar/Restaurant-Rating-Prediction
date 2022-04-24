@@ -128,7 +128,7 @@ The main project scripts are in the "src" directory. Exceptionally, "app.py" is 
 Download the copy of repository using 
 ```bash
 git clone https://github.com/vikramnayyar/Restaurant-Rating-Prediction
-'''
+```
 
 ### * Installing Dependencies
 Foremost running the project, installing the dependencies is essential. 
