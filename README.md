@@ -130,14 +130,14 @@ Download the copy of repository using
 git clone https://github.com/vikramnayyar/Restaurant-Rating-Prediction
 ```
 
-### * Installing Dependencies
+* ### Installing Dependencies
 Foremost running the project, installing the dependencies is essential. 
 * Ensure Python 3.8.8 or later is installed in the system. 
 * All required libraries are listed in "requirements.txt". These are easily installed; by running the following command in project directory
 ```bash
 pip install -r requirements.txt
 ```
-### * Download Dataset
+* ### Download Dataset
 Running the following command main project directory; downloads the dataset  
 ```bash
 dvc pull
