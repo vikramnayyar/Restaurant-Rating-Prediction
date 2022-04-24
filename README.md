@@ -124,6 +124,12 @@ The main project scripts are in the "src" directory. Exceptionally, "app.py" is 
 **Note :** Data and Model directories are empty due to Github upload size restriction. These directories fill up by running corresponding scripts. This is already explained in Technical Description section.  
 
 ## Prerequisites
+* ### Clone repository 
+Download the copy of repository using 
+```bash
+git clone https://github.com/vikramnayyar/Restaurant-Rating-Prediction
+'''
+
 ### * Installing Dependencies
 Foremost running the project, installing the dependencies is essential. 
 * Ensure Python 3.8.8 or later is installed in the system. 
