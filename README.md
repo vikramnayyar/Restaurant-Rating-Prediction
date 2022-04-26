@@ -1,8 +1,10 @@
 # Restaurant-Rating-Prediction
 
-## Demo
-Project Description: [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/_mODMut5x6A/0.jpg)](https://www.youtube.com/watch?v=_mODMut5x6A)
+## Project Description 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/_mODMut5x6A/0.jpg)](https://www.youtube.com/watch?v=_mODMut5x6A)
 
+## Installation Guide & App Demo
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/GjMBYD7qqHA/0.jpg)](https://www.youtube.com/watch?v=GjMBYD7qqHA)
 
 ## Introduction
 An app is developed that predicts the rating of a Bangalore restaurant. This is based on six user inputs. The app was trained using <b>sklearn</b> models and is developed in <b>Streamlit</b>.
