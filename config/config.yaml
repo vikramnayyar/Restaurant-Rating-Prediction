@@ -1,7 +1,5 @@
 get_data:
-    data: "data/restnt_data.csv"    
-    model_id: 1-9wC-IJn6s1V_FOkEtAHmyt8yzMRBfuK
-    
+    data: "data/restnt_data.csv"        
 
 data_analysis:
     data: "data/clean_data.csv"    
