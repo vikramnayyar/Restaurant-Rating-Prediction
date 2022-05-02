@@ -1,7 +1,5 @@
 get_data:
-    download_id: "1D-0gn9kJObWDnHXy9_NwI1Us8zCfFlwt"
-    data: "data/restnt_data.csv"
-    
+    data: "data/restnt_data.csv"    
     model_id: 1-9wC-IJn6s1V_FOkEtAHmyt8yzMRBfuK
     
 
