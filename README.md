@@ -7,8 +7,6 @@
 ## Introduction
 An app is developed that predicts the rating of a Bangalore restaurant. This is based on six user inputs. The app was trained using <b>sklearn</b> models and is developed in <b>Streamlit</b>. 
 
-This project was completed as a part of internship at iNeuron.    
-
 
 ## Dataset
 The dataset consists of actual information obtained from Zomato. This consists <b>51717</b> restaurants and <b>17</b> features. The dataset was uploaded by Himanshu Poddar in Kaggle. Besides, a recently updated dataset can be obtained using web scraping.   
